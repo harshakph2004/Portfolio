@@ -554,3 +554,48 @@ select:-webkit-autofill {
   font-size: 52px;
 
 }
+/* ===== FIX ONLY ABOUT SECTION (MOBILE) ===== */
+@media (max-width: 768px) {
+
+  .about-container {
+    display: flex !important;
+    flex-direction: column-reverse !important; /* text above image */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about-text {
+    text-align: center;
+    margin-top: 0 !important;
+  }
+
+  .about-title {
+    font-size: 32px !important;
+  }
+
+  .about-title span {
+    font-size: 32px !important;
+  }
+
+}
+
+/* ===== RESET PROJECT LINK COLORS (FIX BROKEN LOOK) ===== */
+.project-row,
+.project-row h2,
+.project-row p {
+  color: #e5e5e5 !important;
+  text-decoration: none !important;
+}
+
+.project-row a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* ===== FIX SKILLS ICON SIZE BACK ===== */
+.icon-item img {
+  width: 45px !important;
+  height: 45px !important;
+}
+</style>
+<style>
