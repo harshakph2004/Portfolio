@@ -555,27 +555,4 @@ select:-webkit-autofill {
 
 }
 /* ===== FIX ONLY ABOUT SECTION (MOBILE) ===== */
-@media (max-width: 768px) {
-
-  .about-container {
-    display: flex !important;
-    flex-direction: column-reverse !important; /* text above image */
-    align-items: center;
-    gap: 20px;
-  }
-
-  .about-text {
-    text-align: center;
-    margin-top: 0 !important;
-  }
-
-  .about-title {
-    font-size: 32px !important;
-  }
-
-  .about-title span {
-    font-size: 32px !important;
-  }
-
-}
 
