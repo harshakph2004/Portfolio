@@ -599,3 +599,35 @@ select:-webkit-autofill {
 }
 </style>
 <style>
+.skills-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.skill-row {
+  width: 90%;
+  text-align: center;
+}
+
+.skill-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.icon-item {
+  align-items: center;
+}
+
+.icon-item img {
+  width: 45px;
+  height: 45px;
+}
+
+.icon-item p {
+  text-align: center;
+  font-size: 13px;
+}
