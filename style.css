@@ -883,3 +883,49 @@ select:-webkit-autofill {
   font-size: 52px;
 
 }
+
+@media (max-width: 768px) {
+
+  /* Move text DOWN */
+
+  .home-text {
+
+    margin-top: 40px; /* increase to push text down */
+
+  }
+
+  /* Adjust heading spacing */
+
+  .home-text h1 {
+
+    font-size: 32px;
+
+    line-height: 1.2;
+
+  }
+
+  .home-text p {
+
+    font-size: 14px;
+
+    padding: 0 10px;
+
+  }
+
+  /* Move image UP + make bigger */
+
+  .home-img {
+
+    margin-top: -40px; /* negative = move UP */
+
+  }
+
+  .home-img img {
+
+    width: 90%;   /* increase size */
+
+    max-width: 320px;
+
+  }
+
+}
